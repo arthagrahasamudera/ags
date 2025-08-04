@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Halo, saya Andi!</h1>
+        <p>Web Developer | UI Designer</p>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah pengembang web yang menyukai desain bersih dan pengalaman pengguna yang baik.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyek</h2>
+        <ul>
+            <li>Website Toko Online</li>
+            <li>Aplikasi Catatan Pribadi</li>
+            <li>Blog Teknologi</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <button onclick="showAlert()">Hubungi Saya</button>
+    </section>
+
+    <footer>
+        <p>© 2025 Andi. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
